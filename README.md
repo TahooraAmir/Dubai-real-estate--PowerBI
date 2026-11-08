@@ -82,8 +82,6 @@ Measures are kept in separate tables: `_Measures` (Transactions), `_ProjectMeasu
 ```dax
 Deals = DISTINCTCOUNT(Transactions[TRANSACTION_NUMBER])
 
-Median Mortgage Value = MEDIAN(...)  -- median is used because a few huge deals skew the average
-
 Average Build Time (Months) =
 AVERAGEX(Projects, DIVIDE(Projects[end date] - Projects[start date], 30.44))
 
@@ -128,7 +126,11 @@ Other measures include Units Sold, Off-Plan and Ready, Freehold and Non-Freehold
 - **Overview:** the 212 matched projects. Top projects and developers by deals, sell-through, monthly deals, completion-year pipeline, project value vs deals scatter chart, and the largest registered-vs-actual area gaps.
 - **Area Insights:** sales vs project value by area, deals and deals per project by area, property subtypes, off-plan vs ready, average price per sqm, with metro, mall, landmark and area slicers.
 
-> Add screenshots here, for example `images/transactions.png`, `images/projects.png`, `images/overview.png`, `images/area-insights.png`.
+> <img width="577" height="321" alt="image" src="https://github.com/user-attachments/assets/868ec5a7-20f0-4f69-ad39-ad0050dcac3e" />
+<img width="580" height="323" alt="image" src="https://github.com/user-attachments/assets/55bce2e1-a8f7-44dc-8caf-0dd519bebba8" />
+<img width="574" height="323" alt="image" src="https://github.com/user-attachments/assets/67234af6-555c-44c4-ae77-efaa7b1c9525" />
+<img width="577" height="322" alt="image" src="https://github.com/user-attachments/assets/0516e09d-e69f-490b-914e-c0975876c37f" />
+
 
 ---
 
