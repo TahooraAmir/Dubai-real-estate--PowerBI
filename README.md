@@ -172,14 +172,11 @@ Other measures include Units Sold, Off-Plan and Ready, Freehold and Non-Freehold
 - Why measures such as median and distinct count can tell a different story from a simple sum or average.
 
 ---
-
 ## 10. Repository Contents
 
-```
-/data        cleaned Excel workbook / source CSV notes
-/dashboard   Power BI file (.pbix)
-/images      dashboard screenshots
-README.md
-```
+- `images/`: dashboard screenshots
+- `data/transactions_sample.csv`: first 250 rows of the cleaned Transactions data (the full file is 150,495 rows and is too large for GitHub)
+- `data/projects.csv`: the full  Projects data
+- `README.md`: this file
 
-*Data source: Dubai Land Department open data.*
+Full source data: Dubai Land Department open data portal.
