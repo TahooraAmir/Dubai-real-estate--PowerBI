@@ -125,10 +125,13 @@ Other measures include Units Sold, Off-Plan and Ready, Freehold and Non-Freehold
 ### Combined Dashboard (two pages)
 - **Overview:** the 212 matched projects. Top projects and developers by deals, sell-through, monthly deals, completion-year pipeline, project value vs deals scatter chart, and the largest registered-vs-actual area gaps.
 - **Area Insights:** sales vs project value by area, deals and deals per project by area, property subtypes, off-plan vs ready, average price per sqm, with metro, mall, landmark and area slicers.
-
+**Transactions Dashboard**
 > <img width="577" height="321" alt="image" src="https://github.com/user-attachments/assets/868ec5a7-20f0-4f69-ad39-ad0050dcac3e" />
+**Projects Dashboard**
 <img width="580" height="323" alt="image" src="https://github.com/user-attachments/assets/55bce2e1-a8f7-44dc-8caf-0dd519bebba8" />
+**Combined: Overview**
 <img width="574" height="323" alt="image" src="https://github.com/user-attachments/assets/67234af6-555c-44c4-ae77-efaa7b1c9525" />
+**Combined: Area Insights**
 <img width="577" height="322" alt="image" src="https://github.com/user-attachments/assets/0516e09d-e69f-490b-914e-c0975876c37f" />
 
 
@@ -150,7 +153,7 @@ Other measures include Units Sold, Off-Plan and Ready, Freehold and Non-Freehold
 - Deals peaked in April (about 4.2K), then dropped about 42% in May and stayed lower through August.
 - Total sales value (about 95.4bn AED) is about **1.48 times** total project value (about 65bn AED). Sale prices include margin and land, and resales are counted too.
 - **Maybach Six** is the busiest project (about 1,031 deals, roughly 55% sold). **Hado By Beyond** and **Creek Bay** are near sold out, while **Sobha Central** has sold only about a quarter.
-- **Greens by Danube** has a registered-vs-actual area gap of about 241K sqm on its sales, roughly 40 times larger than the next project.
+- - **Greenz By Danube** has the largest gap between registered and actual area on its sales (about 241K, in the units recorded by DLD), roughly 40 times larger than the next project.
 
 ---
 
@@ -175,8 +178,8 @@ Other measures include Units Sold, Off-Plan and Ready, Freehold and Non-Freehold
 ## 10. Repository Contents
 
 - `images/`: dashboard screenshots
-- `data/transactions_sample.csv`: first 250 rows of the cleaned Transactions data (the full file is 150,495 rows and is too large for GitHub)
-- `data/projects.csv`: the full  Projects data
+- `data/transactions_sample.csv`: first 250 rows of the Original Transactions data (the full file is 150,495 rows and is too large for GitHub)
+- `data/projects.csv`:  the original Projects data as downloaded from DLD (324 rows). 
 - `README.md`: this file
 
 Full source data: Dubai Land Department open data portal.
