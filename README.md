@@ -1,6 +1,6 @@
 # Dubai Real Estate Analysis: Transactions, Projects and Combined Power BI Dashboards
 
-An end-to-end data analytics project using open data from the **Dubai Land Department (DLD)**. It covers data cleaning in Excel and Power Query, data modelling, DAX measures, and three Power BI dashboards that look at property sales, new developments, and what happens when the two are combined.
+An end-to-end data analytics project using open data from the **Dubai Land Department (DLD)**. It covers data cleaning in Excel and Power Query, data modelling, DAX measures, and four Power BI dashboards that look at property sales, new developments, and what happens when the two are combined.
 
 **Author:** Tahoora Pathan, BBA Data Analytics
 **Period covered:** January to August 2026
